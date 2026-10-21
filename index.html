@@ -1,0 +1,178 @@
+<!--
+THESIS: A first portfolio should feel like a living GitHub profile, not a generic marketing landing page.
+OWN-WORLD: Primer tokens, repository borders, contribution green, compact controls, and a personal JS monogram.
+STORY: Meet the student, understand what they are learning, inspect selected work, then open the full project record.
+FIRST VIEWPORT: A profile column sits beside a README-style introduction with clear Projects and Contact actions.
+FORM: Personal profile plus repository README, chosen to make editing and publishing immediately familiar.
+-->
+<!doctype html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An editable student portfolio featuring selected projects, skills, and contact links.">
+    <meta name="theme-color" content="#0d1117">
+    <title>Jamie Student · Portfolio</title>
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@primer/css@22.3.1/dist/primer.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-shell">
+        <a class="brand-link" href="index.html" aria-label="Jamie Student portfolio home">
+          <img src="assets/mark.svg" width="32" height="32" alt="">
+          <span>Jamie Student</span>
+        </a>
+        <button class="menu-button btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-site-nav>
+          <a href="index.html">Overview</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-button btn" type="button" data-theme-toggle aria-label="Change color theme">
+          <span data-theme-icon aria-hidden="true">◐</span>
+          <span data-theme-label>Theme</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-shell">
+      <div class="profile-layout">
+        <aside class="profile-column" aria-labelledby="profile-name">
+          <div class="avatar-placeholder" aria-hidden="true">JS</div>
+          <div class="profile-heading">
+            <!-- EDIT: Replace the name and username. -->
+            <h1 id="profile-name">Jamie Student</h1>
+            <p class="username">@your-username</p>
+          </div>
+          <!-- EDIT: Replace this short bio. -->
+          <p class="profile-bio">Student developer learning in public and turning class ideas into useful, thoughtful projects.</p>
+          <a class="btn btn-primary width-full" href="contact.html">Get in touch</a>
+          <dl class="profile-facts">
+            <div>
+              <dt>Based in</dt>
+              <dd>Your city</dd>
+            </div>
+            <div>
+              <dt>Studying</dt>
+              <dd>Your course</dd>
+            </div>
+            <div>
+              <dt>Exploring</dt>
+              <dd>Web, data, and design</dd>
+            </div>
+          </dl>
+        </aside>
+
+        <div class="content-column">
+          <section class="readme Box" aria-labelledby="hello-heading">
+            <div class="readme-bar">
+              <span class="file-icon" aria-hidden="true">▤</span>
+              <span>README.md</span>
+              <span class="Label Label--success">Available for learning opportunities</span>
+            </div>
+            <div class="readme-body markdown-body">
+              <h2 id="hello-heading">Hi, I’m Jamie 👋</h2>
+              <p>
+                I’m building my foundation in software development through coursework,
+                experiments, and small projects that solve real problems. This portfolio
+                is a record of what I’m learning and how my work is improving.
+              </p>
+              <div class="action-row">
+                <a class="btn btn-primary" href="projects.html">View my projects</a>
+                <a class="btn" href="about.html">More about me</a>
+              </div>
+              <hr>
+              <h3>What I’m working on</h3>
+              <ul class="task-list">
+                <li><span class="task-marker" aria-hidden="true">✓</span> Building accessible interfaces with semantic HTML and CSS</li>
+                <li><span class="task-marker" aria-hidden="true">✓</span> Learning how to plan, document, and test small software projects</li>
+                <li><span class="task-marker pending" aria-hidden="true">○</span> Looking for the next problem worth exploring</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="section-block" aria-labelledby="featured-heading">
+            <div class="section-heading">
+              <h2 id="featured-heading">Pinned projects</h2>
+              <a href="projects.html">See all projects</a>
+            </div>
+            <div class="repo-grid">
+              <article class="repo-card">
+                <div class="repo-title-row">
+                  <span class="repo-icon" aria-hidden="true">▱</span>
+                  <h3><a href="projects.html#study-planner">study-planner</a></h3>
+                  <span class="Label">Public</span>
+                </div>
+                <p>A calm weekly planner concept that helps students break assignments into achievable sessions.</p>
+                <div class="repo-meta">
+                  <span><span class="language-dot dot-blue"></span>HTML</span>
+                  <span>Starter project</span>
+                </div>
+              </article>
+
+              <article class="repo-card">
+                <div class="repo-title-row">
+                  <span class="repo-icon" aria-hidden="true">▱</span>
+                  <h3><a href="projects.html#data-story">campus-data-story</a></h3>
+                  <span class="Label">Public</span>
+                </div>
+                <p>An exploratory data story that turns a campus question into a clear visual explanation.</p>
+                <div class="repo-meta">
+                  <span><span class="language-dot dot-yellow"></span>JavaScript</span>
+                  <span>Coursework</span>
+                </div>
+              </article>
+
+              <article class="repo-card">
+                <div class="repo-title-row">
+                  <span class="repo-icon" aria-hidden="true">▱</span>
+                  <h3><a href="projects.html#community-site">community-site</a></h3>
+                  <span class="Label">Public</span>
+                </div>
+                <p>A responsive information site designed to make a student group easier to discover and join.</p>
+                <div class="repo-meta">
+                  <span><span class="language-dot dot-purple"></span>CSS</span>
+                  <span>Team project</span>
+                </div>
+              </article>
+
+              <article class="repo-card repo-card--next">
+                <div class="repo-title-row">
+                  <span class="repo-icon" aria-hidden="true">＋</span>
+                  <h3>your-next-project</h3>
+                </div>
+                <p>Replace this card with the next piece of work you are proud to explain.</p>
+                <a class="repo-next-link" href="README.md">How to customize this site →</a>
+              </article>
+            </div>
+          </section>
+
+          <section class="activity-panel" aria-labelledby="activity-heading">
+            <div>
+              <h2 id="activity-heading">Learning activity</h2>
+              <p>Small, consistent progress matters more than a perfect streak.</p>
+            </div>
+            <div class="activity-grid" aria-label="Decorative learning activity grid">
+              <span class="level-0"></span><span class="level-1"></span><span class="level-0"></span><span class="level-2"></span><span class="level-1"></span><span class="level-0"></span><span class="level-3"></span>
+              <span class="level-1"></span><span class="level-2"></span><span class="level-2"></span><span class="level-0"></span><span class="level-1"></span><span class="level-3"></span><span class="level-1"></span>
+              <span class="level-0"></span><span class="level-1"></span><span class="level-3"></span><span class="level-4"></span><span class="level-2"></span><span class="level-1"></span><span class="level-0"></span>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built as a personal portfolio with GitHub Primer. Not affiliated with GitHub.</p>
+      <p>© <span data-current-year></span> Jamie Student</p>
+    </footer>
+  </body>
+</html>
+

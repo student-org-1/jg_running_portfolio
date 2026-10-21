@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T14:54:03.383+11:00",
+  "title": "Design System: Jamie Student Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "foreground-default": {
+        "role": "neutral",
+        "displayName": "Default Ink",
+        "canonical": "var(--fgColor-default, #1f2328)",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "foreground-muted": {
+        "role": "neutral",
+        "displayName": "Metadata Gray",
+        "canonical": "var(--fgColor-muted, #656d76)",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "canvas-default": {
+        "role": "neutral",
+        "displayName": "Default Canvas",
+        "canonical": "var(--bgColor-default, #ffffff)",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "canvas-muted": {
+        "role": "neutral",
+        "displayName": "Repository Mist",
+        "canonical": "var(--bgColor-muted, #f6f8fa)",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "border-default": {
+        "role": "neutral",
+        "displayName": "Repository Border",
+        "canonical": "var(--borderColor-default, #d0d7de)",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "border-muted": {
+        "role": "neutral",
+        "displayName": "Quiet Divider",
+        "canonical": "var(--borderColor-muted, #d8dee4)",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "accent-link": {
+        "role": "primary",
+        "displayName": "Primer Link Blue",
+        "canonical": "var(--fgColor-accent, #0969da)",
+        "tonalRamp": ["oklch(15% 0.07 255)", "oklch(27% 0.11 255)", "oklch(39% 0.15 255)", "oklch(51% 0.18 255)", "oklch(63% 0.16 255)", "oklch(74% 0.12 255)", "oklch(85% 0.075 255)", "oklch(95% 0.025 255)"]
+      },
+      "action-green": {
+        "role": "primary",
+        "displayName": "Action Green",
+        "canonical": "#1f883d",
+        "tonalRamp": ["oklch(15% 0.06 145)", "oklch(27% 0.1 145)", "oklch(39% 0.13 145)", "oklch(51% 0.15 145)", "oklch(63% 0.14 145)", "oklch(74% 0.11 145)", "oklch(85% 0.07 145)", "oklch(95% 0.025 145)"]
+      },
+      "action-green-hover": {
+        "role": "primary",
+        "displayName": "Action Green Hover",
+        "canonical": "#1a7f37",
+        "tonalRamp": ["oklch(15% 0.06 145)", "oklch(27% 0.1 145)", "oklch(39% 0.13 145)", "oklch(51% 0.15 145)", "oklch(63% 0.14 145)", "oklch(74% 0.11 145)", "oklch(85% 0.07 145)", "oklch(95% 0.025 145)"]
+      },
+      "identity-green": {
+        "role": "primary",
+        "displayName": "Monogram Green",
+        "canonical": "#238636",
+        "tonalRamp": ["oklch(15% 0.06 145)", "oklch(27% 0.1 145)", "oklch(39% 0.13 145)", "oklch(51% 0.15 145)", "oklch(63% 0.14 145)", "oklch(74% 0.11 145)", "oklch(85% 0.07 145)", "oklch(95% 0.025 145)"]
+      },
+      "on-emphasis": {
+        "role": "neutral",
+        "displayName": "On Emphasis White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(74% 0 0)", "oklch(85% 0 0)", "oklch(95% 0 0)"]
+      },
+      "header-canvas": {
+        "role": "neutral",
+        "displayName": "Header Black",
+        "canonical": "#010409",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "header-control": {
+        "role": "neutral",
+        "displayName": "Header Control",
+        "canonical": "#21262d",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "header-border": {
+        "role": "neutral",
+        "displayName": "Header Border",
+        "canonical": "#30363d",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "header-foreground": {
+        "role": "neutral",
+        "displayName": "Header Foreground",
+        "canonical": "#f0f6fc",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "header-muted": {
+        "role": "neutral",
+        "displayName": "Header Muted",
+        "canonical": "#b1bac4",
+        "tonalRamp": ["oklch(15% 0.01 255)", "oklch(26% 0.012 255)", "oklch(38% 0.012 255)", "oklch(50% 0.012 255)", "oklch(62% 0.01 255)", "oklch(74% 0.008 255)", "oklch(86% 0.006 255)", "oklch(96% 0.003 255)"]
+      },
+      "active-coral": {
+        "role": "secondary",
+        "displayName": "Active Coral",
+        "canonical": "#f78166",
+        "tonalRamp": ["oklch(15% 0.06 35)", "oklch(27% 0.1 35)", "oklch(39% 0.14 35)", "oklch(51% 0.17 35)", "oklch(63% 0.16 35)", "oklch(74% 0.12 35)", "oklch(85% 0.075 35)", "oklch(95% 0.025 35)"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Page Display",
+        "purpose": "Short page introductions and the 404 statement."
+      },
+      "headline": {
+        "displayName": "README Headline",
+        "purpose": "The main greeting inside the README-style surface."
+      },
+      "title": {
+        "displayName": "Record Title",
+        "purpose": "Project names and compact section titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default interface and reading copy."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Muted introductory copy under a page display."
+      },
+      "label": {
+        "displayName": "Interface Label",
+        "purpose": "Navigation, buttons, file bars, and section labels."
+      },
+      "micro": {
+        "displayName": "Metadata",
+        "purpose": "Repository details, dates, language labels, and footer copy."
+      }
+    },
+    "motion": [
+      {
+        "name": "page-scroll",
+        "value": "smooth",
+        "purpose": "Default in-page navigation behavior when reduced motion is not requested."
+      },
+      {
+        "name": "reduced-motion-duration",
+        "value": "0.01ms",
+        "purpose": "Collapses animation and transition duration when the user requests reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "767px"
+      },
+      {
+        "name": "compact",
+        "value": "599px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The strongest action in a local group, using the portfolio's reserved action green.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">View my projects</a>",
+      "css": ".ds-btn-primary { position: relative; display: inline-block; min-height: 32px; padding: 5px 16px; color: #fff; background: var(--portfolio-green, #1f883d); border: 1px solid #1a7f37; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; font-size: 14px; font-weight: 500; line-height: 20px; text-decoration: none; } .ds-btn-primary:hover { color: #fff; background: var(--portfolio-green-hover, #1a7f37); text-decoration: none; } .ds-btn-primary:focus-visible { outline: 2px solid var(--focus-outlineColor, #0969da); outline-offset: 3px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A compact Primer-style supporting action with neutral surface contrast.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">More about me</a>",
+      "css": ".ds-btn-secondary { position: relative; display: inline-block; min-height: 32px; padding: 5px 16px; color: var(--fgColor-default, #1f2328); background: var(--bgColor-muted, #f6f8fa); border: 1px solid var(--borderColor-default, #d0d7de); border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; font-size: 14px; font-weight: 500; line-height: 20px; text-decoration: none; } .ds-btn-secondary:hover { color: var(--fgColor-default, #1f2328); background: var(--bgColor-default, #ffffff); text-decoration: none; } .ds-btn-secondary:focus-visible { outline: 2px solid var(--focus-outlineColor, #0969da); outline-offset: 3px; }"
+    },
+    {
+      "name": "Site Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Persistent dark repository chrome with a thin coral indicator for the current page.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"#\">Overview</a><a class=\"ds-nav-active\" href=\"#\">Projects</a><a href=\"#\">Contact</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: stretch; min-height: 64px; padding: 0 12px; background: #010409; border-bottom: 1px solid #30363d; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; } .ds-nav a { display: inline-flex; align-items: center; padding: 0 12px; color: #b1bac4; border-bottom: 2px solid transparent; font-size: 14px; font-weight: 600; text-decoration: none; } .ds-nav a:hover { color: #fff; } .ds-nav .ds-nav-active { color: #fff; border-bottom-color: #f78166; } .ds-nav a:focus-visible { outline: 2px solid #0969da; outline-offset: -4px; }"
+    },
+    {
+      "name": "Label Chip",
+      "kind": "chip",
+      "refersTo": "label-chip",
+      "description": "Compact repository metadata for visibility, technology, availability, and status.",
+      "html": "<span class=\"ds-label\">Public</span>",
+      "css": ".ds-label { display: inline-block; min-height: 20px; padding: 0 7px; color: var(--fgColor-default, #1f2328); background: var(--bgColor-default, #ffffff); border: 1px solid var(--borderColor-default, #d0d7de); border-radius: 9999px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; font-size: 12px; font-weight: 500; line-height: 18px; white-space: nowrap; }"
+    },
+    {
+      "name": "README Panel",
+      "kind": "custom",
+      "description": "The defining overview surface: a repository file bar above a padded Markdown-style introduction.",
+      "html": "<section class=\"ds-readme\"><div class=\"ds-readme-bar\"><span>README.md</span><span class=\"ds-readme-status\">Available for learning opportunities</span></div><div class=\"ds-readme-body\"><h2>Hi, I’m Jamie</h2><p>A concise record of what I’m learning and how my work is improving.</p></div></section>",
+      "css": ".ds-readme { overflow: hidden; color: var(--fgColor-default, #1f2328); background: var(--bgColor-default, #ffffff); border: 1px solid var(--borderColor-default, #d0d7de); border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; } .ds-readme-bar { display: flex; align-items: center; gap: 8px; min-height: 48px; padding: 8px 16px; background: var(--bgColor-muted, #f6f8fa); border-bottom: 1px solid var(--borderColor-default, #d0d7de); font-size: 14px; font-weight: 600; } .ds-readme-status { margin-left: auto; padding: 0 7px; color: #1f2328; background: #dafbe1; border: 1px solid #aceebb; border-radius: 9999px; font-size: 12px; line-height: 18px; } .ds-readme-body { padding: clamp(24px, 5vw, 48px); } .ds-readme-body h2 { margin: 0 0 16px; font-size: clamp(32px, 5vw, 56px); line-height: 1.25; letter-spacing: -0.04em; } .ds-readme-body p { max-width: 68ch; margin: 0; font-size: 17px; line-height: 1.7; }"
+    },
+    {
+      "name": "Repository Card",
+      "kind": "card",
+      "refersTo": "repository-card",
+      "description": "A joined-grid project summary that reads like a pinned GitHub repository.",
+      "html": "<article class=\"ds-repo-card\"><div class=\"ds-repo-title\"><a href=\"#\">study-planner</a><span>Public</span></div><p>A concise description of the problem and project.</p><small>HTML · Starter project</small></article>",
+      "css": ".ds-repo-card { min-height: 176px; padding: 20px; color: var(--fgColor-default, #1f2328); background: var(--bgColor-default, #ffffff); border: 1px solid var(--borderColor-default, #d0d7de); border-radius: 0; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; } .ds-repo-title { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; } .ds-repo-title a { color: var(--fgColor-accent, #0969da); text-decoration: none; } .ds-repo-title a:hover { text-decoration: underline; } .ds-repo-title span { margin-left: auto; padding: 0 7px; border: 1px solid var(--borderColor-default, #d0d7de); border-radius: 9999px; font-size: 12px; font-weight: 500; line-height: 18px; } .ds-repo-card p { min-height: 42px; margin: 14px 0 20px; color: var(--fgColor-muted, #656d76); font-size: 14px; line-height: 1.5; } .ds-repo-card small { color: var(--fgColor-muted, #656d76); font-size: 12px; }"
+    },
+    {
+      "name": "Contact Link Row",
+      "kind": "custom",
+      "description": "A full-width destination row with a strong service label and quiet explanatory copy.",
+      "html": "<a class=\"ds-contact-link\" href=\"#\"><span><strong>GitHub</strong><small>Code, experiments, and project history</small></span><span aria-hidden=\"true\">Open</span></a>",
+      "css": ".ds-contact-link { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 20px 4px; color: var(--fgColor-default, #1f2328); background: var(--bgColor-default, #ffffff); border-top: 1px solid var(--borderColor-default, #d0d7de); border-bottom: 1px solid var(--borderColor-default, #d0d7de); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif; text-decoration: none; } .ds-contact-link > span:first-child { display: grid; gap: 4px; } .ds-contact-link small { color: var(--fgColor-muted, #656d76); font-size: 12px; } .ds-contact-link:hover strong { color: var(--fgColor-accent, #0969da); text-decoration: underline; } .ds-contact-link:focus-visible { outline: 2px solid var(--focus-outlineColor, #0969da); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Personal README",
+    "overview": "The portfolio behaves like a living GitHub profile: personal identity sits beside a readable project record, and repository conventions make the student's work feel inspectable rather than advertised. The interface is compact, factual, and familiar, with Primer semantics supplying the core visual language while the green monogram, progress marks, and profile composition keep the site personal.\n\nThe system is intentionally border-led and content-first. Muted canvases separate file headers, project metadata, and secondary states; links and status colors carry meaning rather than decoration. Light and dark themes remain equivalent expressions of the same semantic roles, and the persistent non-affiliation statement keeps the GitHub-inspired presentation honest.",
+    "keyCharacteristics": [
+      "GitHub profile and README composition instead of a marketing hero.",
+      "Semantic Primer colors that remain meaningful across light and dark themes.",
+      "Repository borders, muted file surfaces, compact controls, and readable metadata.",
+      "Personal green identity accents reserved for primary action and progress.",
+      "Explicit presentation as an independent portfolio, not a GitHub property."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Token Rule",
+        "body": "Use Primer semantic custom properties for foregrounds, canvases, links, focus, and borders so light and dark themes change roles rather than individual selectors.",
+        "section": "colors"
+      },
+      {
+        "name": "The Green Reserve Rule",
+        "body": "Green is for personal identity, primary action, completion, and contribution-style progress; it is not a general decorative fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The Independent Profile Rule",
+        "body": "GitHub colors and patterns describe the portfolio's hosting and interaction language, never endorsement, ownership, or official affiliation.",
+        "section": "colors"
+      },
+      {
+        "name": "The Repository Voice Rule",
+        "body": "Use the system sans stack at every level; hierarchy comes from restrained scale and weight, not from a contrasting display typeface.",
+        "section": "typography"
+      },
+      {
+        "name": "The Short Display Rule",
+        "body": "Large, tightly tracked headings stay brief and cap their line length at roughly 16–18 characters.",
+        "section": "typography"
+      },
+      {
+        "name": "The Profile-to-Record Rule",
+        "body": "On the overview, establish the person first and place the README-style work record directly beside them whenever the viewport allows.",
+        "section": "layout"
+      },
+      {
+        "name": "The Collapse, Don't Compress Rule",
+        "body": "When a rail or two-column composition no longer fits, stack it; do not preserve desktop columns by shrinking readable content.",
+        "section": "layout"
+      },
+      {
+        "name": "The Shared Edge Rule",
+        "body": "Repository groups use joined borders and aligned edges before separate card silhouettes.",
+        "section": "layout"
+      },
+      {
+        "name": "The Border-First Rule",
+        "body": "Establish hierarchy with borders and tonal surfaces before considering shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Flat Record Rule",
+        "body": "README panels, project records, link rows, and repository cards remain visually attached to the page rather than hovering above it.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Primer Radius Rule",
+        "body": "Use the 6px control radius for buttons, mobile navigation items, and independent bounded panels.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Semantic Circle Rule",
+        "body": "Circular geometry signals identity, status, or a data point—not generic decoration.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do use semantic Primer foreground, background, border, link, and focus roles so both shipped themes remain coherent.",
+      "Do present projects like inspectable repository records: name, concise purpose, status, technology, and learning context.",
+      "Do use green sparingly for identity, primary action, completion, and contribution-style progress.",
+      "Do keep the profile/README relationship recognizable on wide screens and stack it cleanly on small screens.",
+      "Do retain the visible statement that the personal portfolio is not affiliated with GitHub.",
+      "Do preserve visible focus, semantic landmarks, reduced-motion behavior, and readable line lengths."
+    ],
+    "donts": [
+      "Don't turn the site into a generic marketing landing page with oversized promotional chrome.",
+      "Don't hard-code theme-specific body colors where a Primer semantic custom property already expresses the role.",
+      "Don't scatter green across decorative surfaces or allow multiple primary actions to compete in one group.",
+      "Don't add routine shadows to repository cards, README panels, sidebars, or contact rows.",
+      "Don't imply that GitHub owns, endorses, or operates the portfolio.",
+      "Don't compress desktop rails into narrow unreadable columns; stack them at the established breakpoint."
+    ]
+  }
+}
